@@ -2,6 +2,7 @@
 
 # investigacion
 ## hardware
+
 ### cpu
 
 1. _**¿Qué es la CPU?**_
@@ -63,6 +64,30 @@ En resumen, la RAM es como la "mesa de trabajo" de tu computadora: donde se colo
 
     - **Durabilidad:** Al no tener partes móviles, las SSD son más resistentes a golpes y vibraciones.
 
+### placa base (_motherboard_)
+
+1. **¿Qué es la Placa Base?**
+
+     - La **placa base** es la tarjeta de circuito impreso principal del sistema informático. Es a esta placa a la que se conectan todos los demás componentes que forman parte de una computadora.
+
+     - En la placa base se encuentran elementos esenciales como el **microprocesador**, la **memoria RAM**, las **ranuras de expansión** y el **chipset** (circuito integrado auxiliar).
+     - Además, en su interior se encuentra el firmware del **BIOS**, que permite regular y probar las funciones básicas del hardware y facilita la carga del sistema operativo.
+
+2. **Funciones de la Placa Base:**
+
+     - **Integración y Conexión:** La placa base es el lugar donde se integran y conectan los diversos componentes del sistema informático. Es como el sistema nervioso central de la computadora.
+ 
+     - **Distribución de Datos:** la placa base distribuye datos a la memoria, sistemas de almacenamiento e interfaces de periféricos.
+
+3. **Tipos de Placa Base:**
+
+     - **Monoprocesadoras:** Albergan un único microprocesador instalado a la vez.
+
+     - **Multiprocesadoras:** Pueden tener varios microprocesadores (2, 4 o más) instalados simultáneamente, lo que proporciona una gran potencia de procesamiento.
+
+En resumen, la placa base es el corazón de cualquier computadora, y su elección afecta directamente el rendimiento y la capacidad de expansión del sistema.
+
+###
 
 ## fuentes
 
@@ -81,3 +106,17 @@ https://academia-lab.com/enciclopedia/memoria-de-acceso-aleatorio-ram/.
 https://www.cavsi.com/espanol/blog/ram-memoria-de-acceso-aleatorio/.
 
 https://bing.com/search?q=RAM+%28Memoria+de+Acceso+Aleatorio%29+fuentes+acad%c3%a9micas.
+
+https://www.xataka.com/basics/hdd-vs-ssd.
+
+https://www.coolmod.com/blog/categorias/componentes/disco-duro-ssd-o-hdd-cual-es-tu-mejor-opcion/.
+
+https://computerhoy.com/pc/ssd-hdd-almacenamiento-datos-diferencias-cual-mejor-opcion-1383750.
+
+https://concepto.de/placa-madre/.
+
+https://elchapuzasinformatico.com/2023/08/placa-base-pc-caracteristicas-tipos-partes/.
+
+https://es.wikipedia.org/wiki/Placa_base.
+
+https://www.profesionalreview.com/placas-base-motherboard/.
