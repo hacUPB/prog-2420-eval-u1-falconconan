@@ -146,7 +146,7 @@ Un sistema operativo (SO) es el conjunto de programas que gestiona los recursos 
  - **Móviles:** Android e iOS son sistemas operativos para dispositivos móviles.
  - **Servidores:** Sistemas como Linux y Windows Server se utilizan en servidores y centros de datos.
 ### Aplicaciones de usuario
-¡Claro! Las **aplicaciones de usuario** son programas informáticos diseñados para realizar tareas específicas y facilitar la vida digital. Estas aplicaciones se pueden encontrar en una variedad de dispositivos, como computadoras, teléfonos inteligentes y tabletas. Permíteme darte más detalles:
+
 
 1. **Definición de Aplicación**:
    - Una **aplicación** es un software diseñado para un propósito particular. Estas herramientas permiten a los usuarios llevar a cabo tareas específicas de manera más eficiente. Algunos ejemplos comunes incluyen procesadores de texto, navegadores web, aplicaciones de mensajería y redes sociales, así como herramientas de edición de imágenes y videojuegos².
@@ -162,7 +162,6 @@ Un sistema operativo (SO) es el conjunto de programas que gestiona los recursos 
 En resumen, las aplicaciones de usuario hacen que nuestras vidas digitales sean más productivas y divertidas. 
 
 ### Drivers
-¡Claro! Los **drivers** (también conocidos como **controladores**) son piezas esenciales del rompecabezas informático. Permíteme explicarte qué son y por qué son tan importantes.
 
 1. **¿Qué son los Drivers o Controladores?**
 
@@ -180,10 +179,6 @@ Sin controladores, el hardware que conectas a tu equipo simplemente no funcionar
 
 
 ### Software de desarrollo
-
-¡Claro! El **software de desarrollo** es un conjunto de herramientas, aplicaciones y marcos de trabajo diseñados para permitir a los programadores y desarrolladores crear, probar, mantener y desplegar software de forma eficiente y efectiva. Permíteme profundizar en este tema:
-
-## ¿Qué es el Software de Desarrollo?
 
 El **software de desarrollo** abarca todo lo necesario para construir y gestionar aplicaciones informáticas. Aquí tienes algunos puntos clave:
 
