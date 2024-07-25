@@ -202,6 +202,36 @@ El **software de desarrollo** abarca todo lo necesario para construir y gestiona
    - **Herramientas de Control de Versiones**: Como **Git** y **GitHub** para gestionar cambios en el código.
    - **Frameworks y Plataformas de Desarrollo**: Por ejemplo, **Angular**, **React**, **Django** o **Spring**.
 
+# Respondan las siguientes preguntas:
+- ¿Cuál es la función principal de cada componente investigado?
+
+- ¿Cómo interactúa el hardware con el software, cuál es la función de cada uno?
+
+
+- ¿Cuál es la función de la CPU y cuáles son sus partes más importantes?
+
+      1. se responde en cpu literal 4
+
+- ¿Qué es la velocidad de la CPU, también conocida como velocidad del reloj?
+
+      1.La velocidad de reloj es la frecuencia a la que la CPU ejecuta sus operaciones básicas. Cuanto mayor sea la frecuencia, más operaciones puede realizar la CPU por segundo
+
+- ¿Cuál es la secuencia de pasos que ocurre, desde el momento en que presionas el botón de encendido de la computadora, hasta que se muestra el sistema operativo listo para funcionar? Describe todos los elementos involucrados y el paso a paso.  
+
+      1. Encendido
+
+      2. POST (Power-On Self-Test) (prueva autodiagnostica)
+
+      3. Carga del bootloader: El bootloader (gestor de arranque) se carga desde el sector de arranque del disco duro o SSD.
+
+      4. Selección del sistema operativo: Si hay varios sistemas operativos instalados, el bootloader muestra un menú para que el usuario elija.
+
+      5. Carga del sistema operativo: El bootloader carga el núcleo del sistema operativo en la memoria RAM.
+
+      6. Inicialización del sistema operativo: El sistema operativo configura los controladores de dispositivos, servicios y aplicaciones.
+- Comenta algo que no sabías y que descubriste en esta actividad.
+
+      1. Aprendí a usar la consola de Linux y también comprendí un poco más sobre cómo funciona el lenguaje del README. Además, exploré algunas partes del hardware y me sorprendió descubrir cómo funciona el proceso de encendido.
 ## fuentes
  - https://cpue.uv.mx/index.php/cpue
  - https://www.scielo.org.mx/scielo.php?script=sci_serial&pid=1870-5308
@@ -244,3 +274,4 @@ El **software de desarrollo** abarca todo lo necesario para construir y gestiona
  - https://www.ibm.com/mx-es/topics/software-development.
  - https://desarrollodesoftware.dev/que-es-software-de-desarrollo-y-ejemplos.
  - https://ejemplo.com.ar/que-es-software-de-desarrollo-y-ejemplos/.
+ - conconversación con Copilot, un asistente virtual basado en GPT-4 del dia 23/07/2024 y 24/07/2024
