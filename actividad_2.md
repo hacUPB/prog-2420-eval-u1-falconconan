@@ -1,4 +1,4 @@
-# [diagrama de cuadros](https://miro.com/welcomeonboard/akh3eWRmcWl1N2tJUEdlSDZjenlrdmE2TkVMS3hQRmV5NkNBbUlGSXNhTURXUzhWTW43UWhxSnQzR05kWmlUQnwzNDU4NzY0NTk1OTA1NTc3NzA1fDI=?share_link_id=640780527382)
+# [diagrama de boques](https://miro.com/welcomeonboard/akh3eWRmcWl1N2tJUEdlSDZjenlrdmE2TkVMS3hQRmV5NkNBbUlGSXNhTURXUzhWTW43UWhxSnQzR05kWmlUQnwzNDU4NzY0NTk1OTA1NTc3NzA1fDI=?share_link_id=640780527382)
 
 # ejercicios
 ## 1
@@ -8,15 +8,15 @@
    - temperatura: -15°C
    - altitud: 5000
 
-| 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |    datos    |
-|-----|-----|-----|----|----|----|---|---|---|---|-------------|
-|     |     |     |  1 |  0 |  1 | 1 | 0 | 1 | 0 |  velocidad  |
-|     |     |     |    |    |  1 | 1 | 1 | 1 | 1 | temperatura |
-|     |  1  |  1  |  1 |  1 |  1 | 0 | 1 | 0 | 0 |   altitud   |
+|2048|1024| 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |    datos    |
+|----|----|-----|-----|-----|----|----|----|---|---|---|---|-------------|
+|    |    |     |     |     |  1 |  0 |  1 | 1 | 0 | 1 | 0 |  velocidad  |
+|    |    |     |     |     |    |    |  1 | 1 | 1 | 1 | 1 | temperatura |
+|    |    |     |  1  |  1  |  1 |  1 |  1 | 0 | 1 | 0 | 0 |   altitud   |
 
 temperatura: 
-- 0000001111= 15
-- 1111110001= -15
+- 000000001111= 15
+- 111111110001= -15
 
 ### modulo de codificacion
 #### paridad 
@@ -31,6 +31,7 @@ temperatura:
 |---------|-----------|-------|
 |    00   |     10    |   01  |
 
- - velocidad= ~~00~~1011010**0**
+ - velocidad= ~~00~~0001011010**0**
  - temperatura = ~~10~~1111110001**1**
  - altitud = ~~01~~111110100**0** 
+
