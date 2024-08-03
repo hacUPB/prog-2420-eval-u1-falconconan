@@ -39,15 +39,15 @@ temperatura: complemento A2
 ### paridad 
    - _**Paridad Par**_: En este caso, el bit de paridad se establece de manera que el número total de unos en el dato (incluyendo el bit de paridad) sea par. Si hay un número impar de unos, se agrega un uno al bit de paridad para que el total sea par
 
-- velocidad = 
+- velocidad:
   - 0001011010**0**
   - 0001111000**0**
   - 0011110000**0**
-- temperatura = 
+- temperatura:
   - 1111110001**1**
   - 1111111110**1**
   - 0000110010**1**
-- altitud = 
+- altitud: 
   - 0000111110100**0** 
   - 0111110100000**0**
   - 0110110101100**1**
@@ -57,17 +57,17 @@ temperatura: complemento A2
 |---------|-----------|-------|
 |    00   |     10    |   01  |
 
- - velocidad=
+ - velocidad:
    - ~~00~~0000001011010**0**
    - ~~00~~0000001111000**0**
    - ~~00~~0000011110000**0**
 
- - temperatura = 
+ - temperatura:
    - ~~10~~1111111110001**1**
    - ~~10~~1111111111110**1**
    - ~~10~~0000000110010**1**
 
- - altitud = 
+ - altitud:
    - ~~01~~0000111110100**0**
    - ~~01~~0111110100000**0**
    - ~~01~~0110110101100**1**
