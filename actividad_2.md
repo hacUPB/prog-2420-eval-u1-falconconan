@@ -114,6 +114,70 @@ Nota: todos los datos estan trabajando en 16 byts
    - 35000
 
 ## Módulo de Cálculo de Error:
-  $Error=Valor_{Medido}-SetPoint$
+$Error=Valor_{Medido}-SetPoint$
 
-- $SetPoint$ = 
+### velocidad
+- $SetPoint$ = 150
+   - 90 
+   - 120
+   - 240
+
+- $ERROR$= 90-150= -60
+- $ERROR$= 120-150= -30
+- $ERROR$= 240-150= 90
+
+### temperatura
+- $SetPoint$ = 11
+   - -15
+   - -2
+   - 50
+
+- $ERROR$= -15-11= -26
+- $ERROR$= -2-11= -13
+- $ERROR$= 50-11= 39
+
+### altitud
+- $SetPoint$ = 27000
+   - 5000
+   - 40000
+   - 35000
+
+- $ERROR$= 5000-27000 
+  = -22000
+- $ERROR$= 40000-27000 
+ = 13000
+- $ERROR$= 35000-27000
+= 8000
+
+## Módulo de Control
+$Control = Error * K_P$
+
+### velocidad
+$k_p$=10
+
+- $ERROR$= -60
+- $ERROR$= -30
+- $ERROR$= 90
+  - $Control$= -60*10= -600
+  - $Control$= -30*10= -300
+  - $Control$= 90*10= 900
+
+### tmperatura
+$k_p$=15
+
+- $ERROR$= -26
+- $ERROR$= -13
+- $ERROR$= 39
+  - $Control$= -26*15= -390
+  - $Control$= -13*15=-195
+  - $Control$= 39*15= 585
+
+### altitud
+$k_p$=12
+
+- $ERROR$= -22000
+- $ERROR$= 13000
+- $ERROR$= 8000
+  - $Control$= -22000*12= -264000
+  - $Control$= 13000*12= 156000
+  - $Control$= 8000*12= 96000
