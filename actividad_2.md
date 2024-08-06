@@ -221,7 +221,18 @@ $k_p$=9
 
 ### altitud
 
-  - $Control$= -18000 =~~10~~111011100110110000
-  - $Control$= 117000 =~~10~~011100100100001000
-  - $Control$= 72000  =~~10~~010001100101000000
+  - $Control$= -18000 = ~~10~~111011100110110000
+  - $Control$= 117000 = ~~10~~011100100100001000
+  - $Control$= 72000  = ~~10~~010001100101000000
+
+## concluciones
+
+1. **Eficiencia en la Codificación y Decodificación**:
+   - La correcta codificación y decodificación de los datos de los sensores es crucial para asegurar la integridad de la información transmitida. Utilizar bits de encabezado para identificar el sensor y agregar un bit de paridad para el control de errores garantiza que los datos sean precisos y confiables al llegar a su destino.
+
+2. **Precisión en la Conversión y Cálculo de Errores**:
+   - La conversión de datos binarios a decimales y hexadecimales permite una interpretación más fácil y precisa de las variables medidas. Además, calcular el error comparando los valores medidos con los valores de referencia (Set Point) es esencial para identificar desviaciones y ajustar el sistema de control de manera adecuada.
+
+3. **Control Proporcional Efectivo**:
+   - Aplicar un control proporcional a los valores de error mediante la multiplicación por una constante ($K_P$) permite ajustar las variables de manera eficiente. Este enfoque ayuda a mantener las variables dentro de los rangos deseados, asegurando un funcionamiento óptimo del sistema de control de la aeronave.
 
