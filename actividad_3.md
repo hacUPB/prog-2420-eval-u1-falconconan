@@ -153,3 +153,6 @@ inicio
     fin si
 print costo
 fin
+````
+
+## ejercicio targeta credito
