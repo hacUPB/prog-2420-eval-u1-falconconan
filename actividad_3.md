@@ -153,6 +153,22 @@ inicio
     fin si
 print costo
 fin
-````
-
+```
 ## ejercicio targeta credito
+```
+inicio
+    leer Valor_A_Pagar
+    leer N_De_Cuotas
+    leer interes
+    definir interes_comp=0
+    definir Valor_Cuota=0
+    definir contador = N_De_Cuotas
+    definir Valor_Cuota_Sin_interes
+    Valor_Cuota_Sin_interes=Valor_A_Pagar/N_De_Cuotas
+    para i=contador hasta i=0
+        interes_comp=((Valor_A_Pagar-Valor_Cuota_Sin_interes)*interes)/100
+        Valor_Cuota=Valor_Cuota_Sin_interes+interes_comp
+        i=i-1
+    fin para
+    imprimir Valor_Cuota
+```
